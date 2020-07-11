@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Tugas Layout</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  </style>
+</head>
+<body>
+<div class="container">
+  <!-- HEADER CAROUSEL -->
+  <div id="demo" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/images/bg1.jpg">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/bg2.jpg">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/bg3.jpg">
+      </div>
+    </div>
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+
+  <!-- NAVIGATION STICKY SCROLLSPY -->
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+    <a class="navbar-brand" href="#"><img src="assets/images/logo.png" height="50px"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link text-warning" href="#beranda">Beranda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-warning" href="#review">Review Novel</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-warning" href="#kontak">Kontak</a>
+        </li>    
+      </ul>
+    </div>  
+  </nav>
+
+  <!-- BERANDA -->
+  <div id="beranda" class="container-fluid" style="padding-top:100px;padding-bottom:50px;padding-right:30px;padding-left:30px;">
+    <div class="row">
+      <div class="col-md-8">
+        <h1>Halo!</h1>
+        <p> Terima kasih sudah berkunjung! Nama saya Ines. Hobi saya membaca dan saya senang mereview buku buku apalagi novel. Dengan membaca, hati menjadi tenang, dan aku bahkan memiliki segunung buku buku yang mungkin bisa ku sharing dengan kalian kalian semua! Saya sangat berharap jika anda dapat terhibur atau setidaknya senang dengan review yang saya berikan ini. </p>
+      </div>
+      <div class="col-md-4" align="center">
+        <img src="assets/images/v5.png" style="width: 200px; height:200px; border-radius: 50%;">
+      </div>
+    </div>
+  </div>
+  <div id="double" style="border-color: orange; border-style: double;"></div>
+
+  <!-- REVIEW -->
+  <div id="review" class="container-fluid" style="padding-top:100px;padding-bottom:50px;padding-right:30px;padding-left:30px;">
+    <div class="row">
+      <div class="col-md-4 mb-3" align="center">
+        <h4>The Ghostwriter oleh Alessandra Torre</h4>
+        <h6 class="mb-3"> Ines Ayu Mega | 11 Juli 2020</h6>
+        <img class="card-img-top" src="assets/images/tgw.jpg" alt="The Ghostwriter">
+      </div>
+      <div class="col-md-8 text-justify">
+        <b>Review The Ghostwriter oleh Alessandra Torre</b> – Buku yang sangat menakjubkan. Tidak ada kata lain yang dapat mengambarkan buku novel ini selain menakjubkan. Ya benar, aku sangat terpaku pada buku novel ini dari awal membacanya hingga akhir ceritanya. 
+        <br><br>
+        Buku ini menceritakan seseorang wanita yang bernama Helena Ross, seorang pengarang buku novel yang telah menerbitkan 15 novel romantisme. 10 dari novel itu adalah bestseller di seluruh dunia. Kini, Helena Ross telah siap untuk menulis buku novel terakhirnya.  Namun belakangan, dia diagnosa menderita kanker yang sangat parah, dan hanya memiliki sekurang kurangnya 3 bulan untuk hidup. Jadi, sebelum Helena meninggal dunia, dia ingin menulis karya novel terakhirnya yang dimana cerita pada novel itu adalah bagian dari hidupnya selama ini. Novel terakhir ini bukanlah novel romantisme seperti yang selama ini ditulisnya, Tidak ada good ending seperti yang selama ini diciptakannya. Novel ini hanya berisi kebenaran, yang selama ini disembunyikannya selama 4 tahun. Kebenaran yang ditutupi kepada keluarga, polisi, pasangannya, dan ditutupi kepada seluruh dunia.
+        <br><br>
+        Buku terakhir?
+        <br><br>
+        Tidak, ini sebuah pengakuan.
+        <br><br>
+        Helena sadar bahwa karena penyakit yang dideritanya, dia tidak akan bisa menyelesaikan buku ini kecuali dia menyewa seorang ghostwriter untuk membantunya. Oleh karena itu, oleh agen penerbitnya, dia mendapatkan seseorang bernama Marka Vantley. Well, Ini hanya setup pada novel ini dan sebelebihnya harus anda baca sendiri, karena aku tidak ingin memberikan spoiler.
+        <br><br>
+        Hal yang sangat kusukai dari buku ini adalah mengenai cerita di dalam cerita. Sangat menakjubkan. Aku berharap bahwa aku bisa memberikan pujian yang lebih bagus dari ini, tapi aku kurang pintar merangkai kata, jadi yang bisa kukatakan tentang buku ini adalah bahwa buku ini sangat menakjubkan, membuatmu adiktif, merangkulmu kedalam cerita, dan mengganggu emosional anda. Tidak banyak buku di luar sana yang dapat mempengaruhi jiwa dan emosional anda, namun buku ini justru adalah salah satunya.
+        <br><br>
+        Perlu diingat bahwa buku ini mungkin berjalan sedikit lambat, namun hal itu dilakukan untuk memberikan hint dan petunjuk kepada inti cerita tersebut. Jadi jika anda sudah membaca sekitar 60% dan masih bertanya tanya dan ingin menyerah pada buku ini, percayalah, anda harus membacanya hingga tuntas, anda tidak akan menyesalinya.
+        <br><br>
+        Alessandra Torre, penggarang buku ini, sedikit demi sedikit menguak cerita masa lalu Helena, dan karakteristik yang dibangun oleh Torre begitu bagus dan ceritanya di tulis dengan sangat indah pula, jadi sangat mudah untuk menyerap apa yang ditulis oleh Torre, sangat detil dan indah.
+        <br><br>
+        Tidak boleh terlewatkan juga quotes favorit dari buku ini yang mungkin dapat mewakili sebagian isi dari buku ini, “That is how life is, it gives us burdens to carry and doesn’t give a damn about the weight. We shoulder it or we break.”
+        <br><br>
+        Baca buku ini! Serius. Bagi anda yang suka dengan novel thriller, novel ini sangat sangat sangat kurekomendasikan untuk anda!
+      </div>
+    </div>
+  </div>
+  <div id="double" style="border-color: orange; border-style: double;"></div>
+
+  <!-- KONTAK -->
+  <div id="kontak" class="container-fluid" style="padding-top:100px;padding-bottom:50px;padding-right:30px;padding-left:30px;">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12">
+        <h3 class="mb-3">Tinggalkan Pesan</h3>
+        <form action="" method="">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Nama" name="nama" required>
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" placeholder="Email" name="email" required>
+          </div>
+          <div class="form-group">
+            <input type="number" class="form-control" placeholder="Telepon" name="telp" required>
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Pesan" class="form-control" name="pesan" required rows="5"></textarea>
+          </div>
+          <button type="submit" class="btn btn-secondary">SUBMIT</button>
+        </form>
+      </div>
+      <div class="col-12 col-md-4">
+        <h6 class="mt-3 mb-3">Alamat</h6>
+        <p> Bekasi, Jawa Barat <br> 17515</p>
+      </div>
+      <div class="col-12 col-md-4">
+        <h6 class="mt-3 mb-3">Email</h6>
+        <p>inesayumega@gmail.com</p>
+      </div>
+      <div class="col-12 col-md-4">
+        <h6 class="mt-3 mb-3">Phone</h6>
+        <p>+62 345 6789 0000</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="bg-dark p-2 text-warning text-center">
+    Copyright &copy; Ines Ayu 2020
+  </div>
+</div>  
+</body>
+</html>
